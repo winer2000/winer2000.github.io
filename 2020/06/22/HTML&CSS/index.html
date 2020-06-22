@@ -1,0 +1,1087 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HTML&amp;CSS - Bluesky の Blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="HTML&amp;CSS
+[TOC]
+
+一.概述HTML &amp;amp;  CSS概述1.web
+​            互联网
+2.W3C
+​            万维网联盟
+​            为,"> 
+    <meta name="author" content="Bluesky0420"> 
+    <link rel="alternative" href="atom.xml" title="Bluesky の Blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-8691406134231910",
+              enable_page_level_ads: true
+         });
+    </script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Bluesky の Blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">HTML&CSS</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">HTML&CSS</h1>
+        <div class="stuff">
+            <span>六月 22, 2020</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <center style = "font-size:30px;font-weight:600;">HTML&CSS</center>
+[TOC]
+
+<h2 id="一-概述"><a href="#一-概述" class="headerlink" title="一.概述"></a><strong>一.概述</strong></h2><h3 id="HTML-amp-CSS概述"><a href="#HTML-amp-CSS概述" class="headerlink" title="HTML &amp;  CSS概述"></a><strong>HTML &amp;  CSS概述</strong></h3><p><strong>1.web</strong></p>
+<p>​            互联网</p>
+<p><strong>2.W3C</strong></p>
+<p>​            万维网联盟</p>
+<p>​            为互联网提供各种标准</p>
+<p><strong>3.xml</strong></p>
+<p>​            可扩展的标记语言：extension markup language,用于定义文档结构。</p>
+<p><strong>4.什么是HTML</strong></p>
+<p>​            HTML是W3C定义的语言标准：用来描述页面结构的语言。</p>
+<p>​            结构：有什么东西，这个东西表示什么含义。</p>
+<p>​            HTML：Hyper Text Markup Language，超文本标记语言</p>
+<p><strong>5.什么是CSS</strong></p>
+<p>​            CSS是W3C定义的语言标准：用来展示页面效果的语言。</p>
+<p>​            CSS决定了页面长什么样子。</p>
+<p><strong>6.执行HTML    CSS</strong></p>
+<p>​            HTML、CSS    →    浏览器内核执行    →    页面</p>
+<p>​            浏览器：shell(外壳) + core(内核):js执行引擎、渲染引擎、其他模块</p>
+<p>​            主流浏览器及其内核：</p>
+<p>​                    IE：Trident</p>
+<p>​                    Chrome：webkit(前)    blink(现)</p>
+<p>​                    Firefox：，</p>
+<p>​                    Safari：Webkit</p>
+<p>​                    Opera：Presto(前)    blink(现)</p>
+<p><strong>7.版本和兼容</strong></p>
+<p>​            HTML5：2014年制定完成</p>
+<p>​            CSS3：至今还没有制定完成</p>
+<p>​            XHTML：完全符合XML规范的HTML的一个版本</p>
+<h3 id="开发环境准备"><a href="#开发环境准备" class="headerlink" title="开发环境准备"></a><strong>开发环境准备</strong></h3><p><strong>1.显示文件扩展名</strong></p>
+<p>​            大部分文件都有文件扩展名</p>
+<p>​            文件扩展名决定了文件用什么应用程序打开</p>
+<p><strong>2.安装浏览器</strong></p>
+<p>​            IE，chrome，Firefox，safari，opera    (推荐chrome)</p>
+<p><strong>3.安装编辑器</strong></p>
+<p>​            记事本(推荐前期使用记事本)，sublime，vscode(插件多)，Atom，Dw(不推荐)，HBuilder</p>
+<h2 id="二-HTML核心"><a href="#二-HTML核心" class="headerlink" title="二.HTML核心"></a><strong>二.HTML核心</strong></h2><h3 id="第一个网页"><a href="#第一个网页" class="headerlink" title="第一个网页"></a><strong>第一个网页</strong></h3><p><strong>1.注释</strong></p>
+<p>​            注释为文档编辑者提供帮助，不参与运行</p>
+<p>​            HTML中的注释如下</p>
+<blockquote>
+<p>&lt;! –    注释内容    –&gt;    如果使用的是VScode和sublime可以使用快捷键    ctrl + ?</p>
+</blockquote>
+<p><strong>2.元素</strong></p>
+<p>​            其他叫法：标签、标记</p>
+<p>​            官方文档为Element：元素</p>
+<p>​            元素 = begin tag(起始标记) + end tag(结束标记) + 元素内容 + 元素属性</p>
+<p>​            属性 = 属性名 + 属性值</p>
+<p>​            属性分类：</p>
+<p>​                    局部属性：元素特有的属性</p>
+<p>​                    全局属性：所有元素通用</p>
+<p>​            <strong>空元素</strong>：没有结束标记的元素，有两种写法，如下。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span> = <span class="string">"UTF-8"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta charset &#x3D; &quot;UTF-8&quot;&#x2F;&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>3.元素的嵌套</strong></p>
+<p>​            元素不能互相嵌套</p>
+<p>​            父元素、子元素、祖先元素、后代元素、兄弟元素</p>
+<p><strong>4.标准的文档结构</strong></p>
+<p>​            如下图</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">！DOCTYPE</span> <span class="attr">HTML</span>&gt;</span>		//文档声明，告诉浏览器当前文档使用的是HTML5标准，不写文档声明会导致浏览器进入怪异渲染模式</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span> = <span class="string">"en"</span>&gt;</span>	//根元素，一个页面只能有一个，且该元素是其他元素的父元素或祖先元素，H5版本没有强制要求书写该属性。</span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span>			//文档头，文档头部属性，不显示在页面，通常里面添加元数据(用于给浏览器看的附加信息)，外部链接。</span><br><span class="line">        <span class="tag">&lt;<span class="name">meat</span> <span class="attr">charset</span> = <span class="string">"UTF-8"</span>&gt;</span>	//元数据</span><br><span class="line">        <span class="tag">&lt;<span class="name">meat</span> <span class="attr">name</span> = <span class="string">"viewport"</span> <span class="attr">conten</span> = <span class="string">"width=device-width,initial-scale=1.0"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meat</span> <span class="attr">http-equiv</span> = <span class="string">"X-UA-Compatible"</span> <span class="attr">content</span> = <span class="string">"ie=edge"</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">title</span>&gt;</span>My First Webpage<span class="tag">&lt;/<span class="name">title</span>&gt;</span>	//文档标题，及网页的标题</span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span>			//文档主体，包含了文档的所有内容</span><br><span class="line">        <span class="comment">&lt;!-- 注释内容--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.bilibili.com"</span>&gt;</span>bilibili<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>5.知识补充</strong></p>
+<p>​            lang：表示文档内容是用什么自然语言书写而成的。</p>
+<p>​            charset：网页内容的编码。</p>
+<p>​            计算机中自能存储数字</p>
+<p>​            计算机中，低电压(0-2 V) 0，高电压(2-5 V) 1，表示成二进制。</p>
+<p>​            UTF-8是Unicode编码的一个版本</p>
+<p>​            页面上要参与显示的元素都应该放在元素体中(body)</p>
+<h3 id="语义化"><a href="#语义化" class="headerlink" title="语义化"></a><strong>语义化</strong></h3><p><strong>1.什么是语义化</strong></p>
+<p>​            每一个HTML元素都具体有具体含义</p>
+<p>​            所有HTML元素与展示在页面的效果无关,页面效果由CSS决定</p>
+<p>​            当我们只有HTML元素而没有设置CSS属性但页面仍有效果是因为浏览器有默认的CSS样式</p>
+<p><strong>2.为什么需要语义化</strong></p>
+<p>​            为了搜索引擎优化(SEO)</p>
+<p>​                    每隔一段时间搜索引擎会从整个网页获取网页源码</p>
+<p>​            为了让浏览器理解网页</p>
+<p>​                    阅读模式、语音模式</p>
+<h3 id="文本元素"><a href="#文本元素" class="headerlink" title="文本元素"></a><strong>文本元素</strong></h3><p><strong>1.h元素</strong></p>
+<p>​            标题元素h1-h6</p>
+<p><strong>2.p元素</strong></p>
+<p>​            文本元素，paragraphs</p>
+<p><strong>3.span元素</strong></p>
+<p>​            没有语义，用来设置样式</p>
+<p><strong>4.pre元素</strong></p>
+<p>​            预格式化文本元素</p>
+<p>​            空白折叠：在源码中连续的空白字符，在页面显示会被折叠成一个空格</p>
+<p>​            在pre元素中不会出现空白折叠，通常用于显示页面中的一些代码</p>
+<p>​            pre元素的本质：他有一个默认的css属性white-space：pre;</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span> = <span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>文本元素<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span>&gt;</span>我是一级标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span>&gt;</span>我是一个段落<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span>&gt;</span>我虽然是文本元素但是我的用途一般是设置样式<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span> = <span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>pre元素的用法<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--方法1--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">pre</span>&gt;</span></span><br><span class="line">        	var i = 2;</span><br><span class="line">        	if(i)&#123;</span><br><span class="line">        		console.log(i);</span><br><span class="line">        	&#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">pre</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--方法2为了语义化--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">code</span> <span class="attr">style</span> = <span class="string">"white-space: pre;"</span>&gt;</span></span><br><span class="line">            var i = 2;</span><br><span class="line">            if(i)&#123;</span><br><span class="line">            	console.log(i);</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="tag">&lt;/<span class="name">code</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>推荐网页：<a href="http://www.xuanfengge.com/funny/html5/element/" target="_blank" rel="noopener">HTML5元素周期表</a></p>
+<p>###　<strong>HTML实体</strong></p>
+<p><strong>1.实体字符，HTML Entity</strong></p>
+<p>​            实体字符通常用于在页面中显示一些特殊符号。</p>
+<p><strong>2.书写形式</strong></p>
+<p>​            &amp;单词;</p>
+<p>​            &amp;#数字;</p>
+<p><strong>3.常用的实体字符</strong></p>
+<p>​            小于：&lt; &#60;</p>
+<p>​            大于：&gt; </p>
+<p>​            空格：&nbsp;</p>
+<p>​            版权：&copy;</p>
+<p>跟多实体字符请查看：<a href="https://www.w3school.com.cn/tags/html_ref_entities.html" target="_blank" rel="noopener">html实体参考手册</a></p>
+<h3 id="a标签"><a href="#a标签" class="headerlink" title="a标签"></a><strong>a标签</strong></h3><p><strong>1.href属性</strong></p>
+<p>​            hyper reference(引用)</p>
+<p><strong>2.功能</strong></p>
+<p>​            跳转地址</p>
+<p>​            跳转锚点</p>
+<p>​            功能性链接</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span> = <span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>a标签的使用<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--跳转地址--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"https://www.bilibili.com"</span>&gt;</span>bilibili<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--跳转锚点--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"#锚点地址"</span>&gt;</span>跳转锚点<span class="tag">&lt;/<span class="name">a</span>&gt;</span>   //可以跳转到某个页面的锚点，也可以跳转到本页面的锚点位置</span><br><span class="line">        <span class="comment">&lt;!--功能性链接--&gt;</span></span><br><span class="line">       	<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"javascipt:alert("</span>你好!")"&gt;</span>弹出你好!<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"mailto:xxxx@gmail.com"</span>&gt;</span>点击发送邮箱<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"telto:xxxxx"</span>&gt;</span>点击通话<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>3.target属性</strong></p>
+<p>​            跳转到新页面</p>
+<p>​            target = “blank”;</p>
+<p><strong>4.全局属性</strong></p>
+<p>​            title = “提示文字”;</p>
+<h3 id="路径的写法"><a href="#路径的写法" class="headerlink" title="路径的写法"></a><strong>路径的写法</strong></h3><p><strong>1.站内资源和站外资源</strong></p>
+<p>​            站内资源：当前网站的资源</p>
+<p>​            站外资源：非当前网站的资源</p>
+<p><strong>2.绝对路径和相对路径</strong></p>
+<p>​            绝对路径书写格式：</p>
+<p>​                    url地址:</p>
+<p>​                    协议名://主机号:端口/路径</p>
+<p>​                    协议名：https、http、file….</p>
+<p>​                    主机号：域名、IP地址</p>
+<p>​                    端口号：http协议默认端口是80，https协议默认端口号是443。</p>
+<p>​            相对路径：</p>
+<p>​                    以./开头./表示当前目录所在资源</p>
+<p>​            站内资源：使用相对路径和绝对路径都可以</p>
+<p>​            站外资源：绝对路径</p>
+<h3 id="图片元素"><a href="#图片元素" class="headerlink" title="图片元素"></a><strong>图片元素</strong></h3><p><strong>1.img元素</strong></p>
+<p>​            image缩写，空元素</p>
+<p>​            src(source)属性：图像资源地址</p>
+<p>​            alt属性：当图片资源失效时，将使用该元素文字代替图片</p>
+<p><strong>2.和a元素联用</strong></p>
+<p>​            在a元素中添加img元素</p>
+<p><strong>3.和map元素联用</strong></p>
+<p>​            map：地图，可将一张图片的各个区域分割成不同的链接地址</p>
+<p>​            map子元素：area</p>
+<p>​            circle：园形    （圆心坐标，半径）</p>
+<p>​            rect：矩形      （左上角坐标，右下角坐标）</p>
+<p>​            poly：多边形 （各个坐标点的坐标）</p>
+<p><strong>4.figure元素</strong></p>
+<p>​            将图片、图片标题、图片描述包裹起来</p>
+<p>​            子元素：figcaption</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span> = <span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">cahrset</span> = <span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>img元素的用法<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">figure</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"链接地址"</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span> = <span class="string">"图片资源"</span> <span class="attr">usemap</span> = <span class="string">"#map标签的名字"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">figcaption</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">h2</span>&gt;</span>图片标题<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">figcaption</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span>图片描述<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">figure</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">map</span> <span class="attr">name</span> = <span class="string">"map标签的名字"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">area</span> <span class="attr">shape</span> = <span class="string">"目标形状"</span> <span class="attr">coord</span> = <span class="string">"坐标位置"</span> <span class="attr">href</span> = <span class="string">"链接地址"</span> <span class="attr">target</span> = <span class="string">"blank"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">map</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="多媒体元素"><a href="#多媒体元素" class="headerlink" title="多媒体元素"></a><strong>多媒体元素</strong></h3><p><strong>1.video：视频</strong></p>
+<p>​            属性autoplay：自动播放，muted：静音播放，controls：控制控件显示，loop：循环播放</p>
+<p><strong>2.audio：音频</strong></p>
+<p>​            属性autoplay：自动播放，muted：静音播放，controls：控制控件显示，loop：循环播放</p>
+<p><strong>3.兼容性</strong></p>
+<p>​            旧版本浏览器不支持这两个属性</p>
+<p>​            不同版本的浏览器支持的音频格式可能不同</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">HTML</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span> = <span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span> = <span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>多媒体元素<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">audio</span> <span class="attr">src</span>=<span class="string">"资源地址"</span> <span class="attr">autoplay</span> <span class="attr">controls</span> <span class="attr">loop</span> <span class="attr">muted</span>&gt;</span><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">"资源地址"</span> <span class="attr">autoplay</span> <span class="attr">controls</span> <span class="attr">loop</span> <span class="attr">muted</span>&gt;</span><span class="tag">&lt;/<span class="name">vedio</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!--兼容性写法--&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">audio</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span> = <span class="string">"资源地址"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span>对不起你的浏览器不支持video元素<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span> = <span class="string">"下载链接"</span>&gt;</span>请点击下载新版本浏览器<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="列表元素"><a href="#列表元素" class="headerlink" title="列表元素"></a><strong>列表元素</strong></h3><p><strong>1.有序列表</strong></p>
+<p>​            ol：ordered list</p>
+<p>​            li：list item</p>
+<p>​            ol的属性，type值为1时，按数字大小排列；为i时，按罗马数字排序，为A，a时，按大写小写排序</p>
+<p>​            不建议使用type属性，在css属性的list-style-type可以进行修改</p>
+<p><strong>2.无序列表</strong></p>
+<p>​            ul：unordered list</p>
+<p>​            li：list itme</p>
+<p>​            通常用于制作菜单</p>
+<p><strong>3.定义列表</strong></p>
+<p>​            用于一些专业术语的定义</p>
+<p>​            dl：definition list</p>
+<p>​            dt：definition title</p>
+<p>​            dd：definition description</p>
+<h3 id="容器元素"><a href="#容器元素" class="headerlink" title="容器元素"></a><strong>容器元素</strong></h3><p><strong>1.div元素</strong></p>
+<p>​            没有语义，用来定义块级元素</p>
+<p><strong>2.语义化元素</strong></p>
+<p>​            header：通常表示页头或者文章的头部</p>
+<p>​            article：通常表示整篇文章</p>
+<p>​            section：通常表示文章的章节</p>
+<p>​            footer：通常用于表示页尾，或表示文章的尾部</p>
+<p>​            aside：通常用于表示附加信息，侧边栏</p>
+<h3 id="元素的包含关系"><a href="#元素的包含关系" class="headerlink" title="元素的包含关系"></a><strong>元素的包含关系</strong></h3><p><strong>1.之前的说法</strong></p>
+<p>​            之前的说法是，块级元素可以包含行级元素，行级元素不能包含块级元素，a元素除外</p>
+<p>​            现在因为语义化的提出，上面的说法失效，因为html元素与它展现页面的效果无关</p>
+<p><strong>2.总结</strong></p>
+<p>​            1.容器元素中可以包含任何元素</p>
+<p>​            2.a元素中可以包含几乎所有元素</p>
+<p>​            3.某些元素有固定的子元素如：ul &gt; li…..</p>
+<p>​            4.标题元素和段落元素不能互相嵌套，且不能包含容器元素</p>
+<h2 id="三-CSS基础"><a href="#三-CSS基础" class="headerlink" title="三.CSS基础"></a><strong>三.CSS基础</strong></h2><h3 id="为网页添加样式"><a href="#为网页添加样式" class="headerlink" title="为网页添加样式"></a><strong>为网页添加样式</strong></h3><p><strong>1.术语解释</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">h1&#123;</span><br><span class="line">	color:red;</span><br><span class="line">	font-size:10px;</span><br><span class="line">	text-algin:center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>css规则 = 选择器 + 声明块</p>
+<p><strong>2.css书写位置</strong></p>
+<p>​        内部样式表</p>
+<p>​                书写在style元素中。</p>
+<p>​        内联样式表</p>
+<p>​                直接书写在元素的style属性中。</p>
+<p>​        外部样式【推荐】</p>
+<p>​                从外部引入css文件，将样式书写到独立的css文件中。</p>
+<p>​                优点：</p>
+<p>​                        1.可以解决多个样式重复的问题</p>
+<p>​                        2.有利于浏览器缓存，提高页面的响应速度</p>
+<p>​                        3.有利于代码分离，便于阅读和维护</p>
+<p><strong>3.选择器</strong></p>
+<p>​        选择器：选中元素</p>
+<p>​        选择器的类别：</p>
+<p>​                id选择器，类选择器，伪类选择器，通配符选择器，元素选择器，伪元素选择器，属性选择器                    </p>
+<p><strong>4.声明块</strong></p>
+<p>​        出现在大括号中</p>
+<p>​        声明块中包含了很多（声明）属性，每一个声明（属性）表达了某一方面的样式。</p>
+<h3 id="常见的样式声明"><a href="#常见的样式声明" class="headerlink" title="常见的样式声明"></a><strong>常见的样式声明</strong></h3><p><strong>1.color</strong></p>
+<p>​        元素内部文字样式</p>
+<p>​        预设值：定义好的单词，工程文件用的并不多</p>
+<p>​        三原色（光学三色）：红绿蓝，每种颜色可以使用0-255之间的数值来表达，色值。</p>
+<p>​        rgb表示法：rgb（0，255，0）</p>
+<p>​        hex（16进制）表示法：#红绿蓝</p>
+<p>​        常见的hex颜色：</p>
+<p>​                淘宝红：#ff4400，#f40</p>
+<p>​                黑色：#000000，#000</p>
+<p>​                白色：#ffffff，#fff</p>
+<p>​                红色：#ff0000，#f00</p>
+<p>​                绿色：#00ff00，#0f0</p>
+<p>​                蓝色：#0000ff，#00f</p>
+<p>​                紫色：#ff00ff，#f0f</p>
+<p>​                青色：#00ffff，#0ff</p>
+<p>​                灰色：#cccccc，#ccc</p>
+<p><strong>2.background-color</strong></p>
+<p>​        元素背景颜色</p>
+<p><strong>3.font-size</strong></p>
+<p>​        元素内部文字尺寸的大小</p>
+<p>​        1）px：像素，简单的解释为文字的高度占多少个像素</p>
+<p>​        2）em：相对单位，相对于父元素的字体大小，如果父元素没有设置文字大小就相对于根元素的文字默认大小</p>
+<p><strong>4.font-weight</strong></p>
+<p>​        文字粗细，取值可为数值，可以设置预设值</p>
+<p>​        默认是normal（400）</p>
+<p>​        加粗bold</p>
+<p>​        通常使用normal和blod</p>
+<blockquote>
+<p>strong元素：默认加粗</p>
+</blockquote>
+<p><strong>5.font-family</strong></p>
+<p>​        字体类型</p>
+<p>​        必须用户计算机上存在的字体才有效</p>
+<p>​        使用多个字体，以匹配不同的环境</p>
+<p>​        sans-serif，非衬线字体</p>
+<p><strong>6.font-style</strong></p>
+<p>​        字体样式，通常用它来设置斜体</p>
+<blockquote>
+<p>i元素，默认样式，是斜体字；实际使用中，通常用他来表示一个图标（icon）</p>
+<p>em元素，表示斜体，通常放置强调的内容 </p>
+</blockquote>
+<p><strong>7.text-decoration</strong></p>
+<p>​        文本修饰，给文本加线</p>
+<blockquote>
+<p>a元素去掉下划线text-decoration：none</p>
+<p>del元素，通常用来存放错误的信息</p>
+<p>s元素，放置过期的信息</p>
+</blockquote>
+<p><strong>8.line-height</strong></p>
+<p>​        行高，每行文本的高度，该值越大，文本之间的距离越大。</p>
+<p>​        设置行高为容器的高度，可以让单行文本垂直居中（字体和容器高度一致时会垂直居中）</p>
+<p>​        行高可以设置为纯数字，表示相对于当前文字的大小</p>
+<p><strong>9.width</strong></p>
+<p>​        宽度</p>
+<p><strong>10.height</strong></p>
+<p>​        高度</p>
+<p><strong>11.letter-space</strong></p>
+<p>​        文字间隙</p>
+<p><strong>12.text-align</strong></p>
+<p>​        元素内部文字水平排列</p>
+<p><strong>13.text-indent</strong></p>
+<p>​        首行缩进</p>
+<h3 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a><strong>选择器</strong></h3><p>​        1.简单选择器</p>
+<p>​                id选择器</p>
+<p>​                类选择器</p>
+<p>​                元素选择器</p>
+<p>​                属性选择器    根据属性名和属性值选中元素    属性的父元素后面写属性值，如果写了该元素和该元素的属性会导致浏览器                发生渲染冲突，默认使用浏览器默认的声明样式.</p>
+<p>​                通配符选择器    *表示选中所有元素</p>
+<p>​                伪类选择器</p>
+<p>​                        a:hover(悬停时)</p>
+<p>​                        a:link(点击前)</p>
+<p>​                        a:visited(点击后)</p>
+<p>​                        a:active(点击时)</p>
+<p>​                        书写顺序：link，visited，hover，active</p>
+<p>​                伪元素选择器</p>
+<p>​                        生成并选中某个元素内部的第一个子元素或最后一个子元素</p>
+<p>​                        ::before</p>
+<p>​                        ::after</p>
+<p>​        2.选择器组合</p>
+<p>​                并且 .</p>
+<p>​                后代元素    —    空格</p>
+<p>​                子元素 —    &gt;</p>
+<p>​                相邻兄弟元素 — +</p>
+<p>​                兄弟元素    — ~</p>
+<p>​        3.选择器并列</p>
+<p>​                多个选择器样式相同用逗号分隔</p>
+<p>​                语法糖</p>
+<h3 id="层叠"><a href="#层叠" class="headerlink" title="层叠"></a><strong>层叠</strong></h3><p><strong>1.概念</strong></p>
+<p>​        声明冲突：同一个的样式，被多次应用到同一个元素</p>
+<p>​        层叠：解决声明冲突的过程，浏览自动处理（权重计算）</p>
+<p><strong>2.比较重要性</strong></p>
+<p>​        重要性从高到低：</p>
+<p>​                作者样式表：开发者书写的样式</p>
+<p>​                1）作者样式表中的!important</p>
+<p>​                2）作者样式表中的普通模式</p>
+<p>​                3）浏览器默认样式表的样式</p>
+<p><strong>3.比较特殊性</strong></p>
+<p>​        看选择器</p>
+<p>​        总体规则：选择器中的范围越小越特殊</p>
+<p>​        具体规则：通过选择器计算出一个四位数</p>
+<p>​        千位：如果是内联样式则为1其他为零</p>
+<p>​        百位：id选择器的数量</p>
+<p>​        十位：等于选择器中所有的类选择器、属性选择器、伪类选择器</p>
+<p>​        个位：元素选择器、伪元素选择器的数量</p>
+<p><strong>4.比较原次序</strong></p>
+<p>​        代码书写靠后的胜出</p>
+<p><strong>5.应用</strong></p>
+<p>​        1.重置样式表</p>
+<p>​                书写一些作者样式表，覆盖浏览器默认的样式表</p>
+<p>​                重置样式表 — 浏览器默认样式表</p>
+<p>​        2.常见的重置样式表：normallize.css，reset.css，meyerweb.css</p>
+<p>​        3.爱恨法则</p>
+<p>​                link &gt; visited &gt; hover &gt; active</p>
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a><strong>继承</strong></h3><p>​        子元素会继承父元素的某些样式</p>
+<p>​        通常，跟文字有关的能被继承</p>
+<h3 id="属性值的计算过程"><a href="#属性值的计算过程" class="headerlink" title="属性值的计算过程"></a><strong>属性值的计算过程</strong></h3><p><strong>1.概念</strong></p>
+<p>​        一个元素，从所有属性都没有值，到所有属性都有值，这个计算过程，叫做属性值得计算过程</p>
+<p><strong>2.浏览器的渲染过程</strong></p>
+<p>​        浏览器渲染一个页面是一个一个页面依次渲染，顺序按照页面文档的树形目录结构进行</p>
+<p>​        渲染每个元素的前提条件：该元素的所有css属性必须有值</p>
+<p><strong>3.计算过程</strong></p>
+<p>​        无属性    →    有属性</p>
+<p>​        1）确定声明值</p>
+<p>​                参考样式表中没有冲突的属性</p>
+<p>​        2）层叠冲突</p>
+<p>​                样式表中有冲突的属性</p>
+<p>​        3）继承</p>
+<p>​                对仍没有值的属性，可继承的属性对父元素的属性进行继承</p>
+<p>​        4）使用默认值</p>
+<p>​                对仍然还没有属性值的属性，使用默认值</p>
+<blockquote>
+<p>background的默认属性值为：transparnet</p>
+</blockquote>
+<p><strong>4.设置元素</strong></p>
+<p>​        特殊的两个css属性值</p>
+<p>​        inherit：强制继承父元素的属性值</p>
+<p>​        initail：初始值，将该属性设置成默认值</p>
+<p><strong>5.例子</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span> = <span class="string">"color: red;"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我是什么颜色<span class="tag">&lt;/<span class="name">p</span>&gt;</span>	//红色</span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span>&gt;</span>我又是什么颜色<span class="tag">&lt;/<span class="name">a</span>&gt;</span>	//浏览器默认样式表的颜色</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a><strong>盒模型</strong></h3><p><strong>1.概念和相关的元素</strong></p>
+<p>​        box：盒子，每个元素在页面中都会生成一个矩形区域（盒子）</p>
+<p>​        相关元素：display</p>
+<p><strong>2.盒子类型</strong></p>
+<p>​        行盒，display等于inline的元素</p>
+<p>​        块盒，display等于block的元素</p>
+<p>​        display默认值是inline</p>
+<p>​        浏览器默认的样式表设置的块盒：容器元素、h1-h6，p,div</p>
+<p>​        常见的行盒：span、a、img、video、audio</p>
+<p><strong>3.盒子的组成部分</strong></p>
+<p>​        无论行盒还是块和都由以下几个部分组成</p>
+<p>​        1.content：width，height，设置盒子的宽高，内容部分内容盒content-box</p>
+<p>​        2.padding：填充，盒子边框到盒子内容的距离，left，right，top，buttom上右下左四个方向一样只写一个数，上下相同，左        右相同只写两个    填充区+内容区 = 填充盒padding-box</p>
+<p>​        3.border：边框，有三个属性，style，color，width边框 = 边框样式 + 边框大小 + 边框 颜色    边框区+填充区+内容区=边框盒        border-box</p>
+<p>​        4.margin：外边框，用来设置和其他盒子的距离</p>
+<h3 id="盒模型应用"><a href="#盒模型应用" class="headerlink" title="盒模型应用"></a><strong>盒模型应用</strong></h3><p><strong>1.改变宽高范围</strong></p>
+<p>​        默认请况下，width盒height设置的是内容盒的宽高</p>
+<p>​        精确计算css3属性：box-sizing</p>
+<p><strong>2.改变背景覆盖范围</strong></p>
+<p>​        默认情况下，背景覆盖边框盒</p>
+<p>​        可以通过background-clip进行修改</p>
+<p><strong>3.溢出处理</strong></p>
+<p>​        overflow：hidden;    隐藏溢出部分</p>
+<p>​        overflow：scroll；生成滚动条overflow有x，y的选项</p>
+<p><strong>4.断词规则</strong></p>
+<p>​        word-breaK,会影响文字在什么位置截断换行</p>
+<p>​        normal：普通。CJK字符（文字位置截断），非CJK字符（单词位置截断）</p>
+<p>​        break-all截断所有，所有字符都在文字处截断</p>
+<p>​        keep-all：保持所有，所有文子都在单词之间截断</p>
+<p><strong>5.空白处理</strong></p>
+<p>​        文字显示不下时设置</p>
+<p>​        white-space：nowrap    不换行</p>
+<p>​        overflow：hidden    隐藏溢出部分</p>
+<p>​        text-overflow：hidden    隐藏溢出的文字部分</p>
+<p>​        text-overflow：ellipsis    将溢出的文字部分转换为…</p>
+<h3 id="行盒盒模型"><a href="#行盒盒模型" class="headerlink" title="行盒盒模型"></a><strong>行盒盒模型</strong></h3><p><strong>1.概念</strong></p>
+<p>​        常见行盒：包含具体内容的元素</p>
+<p>​        span、strong、em、i、s、del、img、video、audio</p>
+<p><strong>2.显著特点</strong></p>
+<p>​        盒子沿着内容延申</p>
+<p>​        行盒不能设置宽高</p>
+<p>​                调整行盒的高度，应该使用字体大小，行高，字体类型，间接调整。</p>
+<p>​        内边距，边框，外边距水平方向上有效，垂直方向上仅会影响背景，不会占据实际空间。</p>
+<p><strong>3.行块盒</strong></p>
+<p>​        display：inline-block；</p>
+<p>​        不会独占一行</p>
+<p>​        块盒盒模型中的所有尺寸都有效。</p>
+<p>​        空白折叠，发生在行盒内部    或    行盒之间（包括行块盒）</p>
+<p><strong>4.可替换元素盒非可替换元素</strong></p>
+<p>​        可替换元素：页面上显示的效果，取决于元素内容</p>
+<p>​                可替换元素：img、video、audio（补充：object-fit：属性；可以设置图片的适应模式）</p>
+<p>​                绝大部分的可替换元素均为行盒，类似于行块盒可以设置宽高</p>
+<p>​        非可替换元素：页面上显示的效果，取决于元素的属性</p>
+<h3 id="常规流"><a href="#常规流" class="headerlink" title="常规流"></a><strong>常规流</strong></h3><p><strong>1.基本概念</strong></p>
+<p>​        盒模型：固定单个盒子的规则</p>
+<p>​        视觉格式化模型：页面上多个盒子排序规则。</p>
+<p>​                视觉格式化模型，大体将盒子排序分为三类：1.常规流    2.浮动    3.定位</p>
+<p>​        包含块（containing block）：每个盒子都有它的包含块，包含块决定了盒子的排列区域。</p>
+<p>​                绝大多数情况下：盒子的包含块，为其父元素的内容盒。</p>
+<p><strong>2.常规流布局</strong></p>
+<p>​        概念</p>
+<p>​                常规流、文档流、常规文档流、普通文档流</p>
+<p>​                所有元素，在默认情况下，都属于常规流布局</p>
+<p>​        总体规则：块盒独占一行，行盒依次排序</p>
+<p><strong>3.块盒在常规流中的规则</strong></p>
+<p>​        每个块盒的总宽度，必须刚好等于父元素的内容盒，宽度的默认值是auto（将剩余空间吸收）margin的取值是auto默认值是        0，且宽度的吸收能力强于margin，若宽度、内边距、边框、外边距计算后，仍有空间，该空间被margin-right吸收</p>
+<p>​        在常规流中，块盒在包含快中居中，可以定宽，然后设置左右margin为auto。</p>
+<p>​        每个块盒垂直方向上的auto值</p>
+<p>​                height：auto；适应内容高度</p>
+<p>​                margin：auto；表示0</p>
+<p>​        百分比的取值</p>
+<p>​                1）padding、宽、margin可以取值为百分比，相对于包含块</p>
+<p>​                2）包含块的高度是取决于子元素的高度，设置百分比无效。</p>
+<p>​                3）包含块的高度不取决于子元素的高度，百分比相对于父元素的高度。</p>
+<p>​        上下外边距合并</p>
+<p>​                1）两个常规流块盒，上下外边距相邻，会进行合并。</p>
+<p>​                2）相邻外边距合并取最大值。</p>
+<h3 id="浮动"><a href="#浮动" class="headerlink" title="浮动"></a><strong>浮动</strong></h3><p><strong>1.应用场景</strong></p>
+<p>​        文字环绕</p>
+<p>​        横向排列</p>
+<p><strong>2.浮动的基本特点</strong></p>
+<p>​        设置float属性值为：</p>
+<p>​                -left：左浮动，元素靠上靠左</p>
+<p>​                -right：右浮动，元素靠上靠右</p>
+<p>​        默认值为：none</p>
+<p>​        当一个元素浮动后，元素必定为块盒（更改属性display：block；）</p>
+<p>​        浮动元素的包含块，盒常规流一样，为父元素的内容盒</p>
+<p><strong>3.盒子尺寸</strong></p>
+<p>​        1）宽度为auto时，适应内容宽度</p>
+<p>​        2）高度为auto时，适应内容高度</p>
+<p>​        3）margin为auto时在浮动里面四边都为零</p>
+<p>​        4）边框、内边距、百分比设置和常规流一样</p>
+<p><strong>4.盒子排列</strong></p>
+<p>​        1）左浮动盒子考上靠左排列</p>
+<p>​        2）右浮动盒子考上靠右排列</p>
+<p>​        3）浮动盒子在包含块中排列时会避开常规流块盒</p>
+<p>​        4）常规流块盒在排列时，会无视浮动盒子</p>
+<p>​        5）行盒在排列时会避开浮动盒子</p>
+<p>​        6）外边距不会发生浮动</p>
+<p>​        补充知识：如果文字没有在行盒中，浏览器会生成一个盒子将文字包裹起来，表示文字永远在行盒中，这个盒子叫做匿名行盒</p>
+<p><strong>5.高度坍塌</strong></p>
+<p>​        高度坍塌根源：常规流盒子的自动高度（未设置高度情况下），在计算时，会忽略浮动盒子。</p>
+<p>​        清除浮动</p>
+<p>​                涉及css属性：clear    默认值是none，属性有left，right，both</p>
+<p>​                -left：清除左浮动，必须出现在所有左浮动盒子的下方</p>
+<p>​                -right：清除右浮动，必须出现在所有右浮动盒子的下方</p>
+<p>​                -both：清除左右浮动，必须出现在所有浮动盒子的下方</p>
+<p>​        解决方法：</p>
+<p>​                1）在所有浮动盒子的父元素上添加一个内样式clearfix设置clearfix::after{content：””;dispaly：block；clear：both；}</p>
+<p>​                2）在所有浮动元素后面添加一个元素并设置高度样式（不推荐）</p>
+<h3 id="定位"><a href="#定位" class="headerlink" title="定位"></a><strong>定位</strong></h3><p><strong>1.position属性</strong></p>
+<p>​        position属性可以手动控制元素在包含块中的精准位置</p>
+<p>​        默认值是：static，静态定位（不定位）</p>
+<p>​        属性值：</p>
+<p>​                -relative：相对定位，相对于它自身</p>
+<p>​                -absolute：绝对定位，相对于它祖先元素中第一个定位元素的填充盒。若没有则相对于整个网页（初始化包含块）</p>
+<p>​                -fixed：固定定位，相对于浏览器视口（可视窗口）</p>
+<p>​        一个元素的position属性值不是static就认为该元素是一个定位元素（除了相对定位）</p>
+<p>​        一个脱离了文档流的元素：</p>
+<p>​                1）文档流元素在摆放时，会忽略脱离了文档流的元素</p>
+<p>​                2）文档流元素在计算自动高度时，会忽略脱离了文档流的元素</p>
+<p><strong>2.相对定位</strong></p>
+<p>​        不会导致元素脱离文档流，知识让元素在原来的位置上进行偏离文档流，让元素在原来位置上移动。</p>
+<p>​        可设置属性：left，right，top，bottom</p>
+<p>​        盒子的偏移不会对其他盒子造成任何影响</p>
+<p><strong>3.绝对定位</strong></p>
+<p>​        高度为auto，适应内容高度</p>
+<p>​        包含块为父元素中第一个定位元素的填充盒，找不到的话，则他的包含块为整个网页（初始化包含块）</p>
+<p><strong>4.固定定位</strong></p>
+<p>​        其他情况下和绝对定位一样</p>
+<p>​        不同：包含块为视口（浏览器可视窗口）</p>
+<p><strong>5.定位下的居中</strong></p>
+<p>​        某个方向居中：定宽（高），将上下（左右）的距离设置为0，将上下（左右）的margin值设置为auto</p>
+<p><strong>6.多个元素重叠时</strong></p>
+<p>​        堆叠上下文</p>
+<p>​        设置z-index，通常情况下，该值越大，越靠近用户</p>
+<p>​        z-index可以为负数，如果是负数，遇到常规流，浮动会被其覆盖</p>
+<p><strong>7.补充</strong></p>
+<p>​        绝对定位、固定定位一定是块盒</p>
+<p>​        绝对定位、固定定位元素一定不会浮动</p>
+<p>​        没有外边距合并</p>
+<h3 id="更多选择器"><a href="#更多选择器" class="headerlink" title="更多选择器"></a><strong>更多选择器</strong></h3><p><strong>1.更多伪类选择器</strong></p>
+<p>​        1）first-child：选中第一个子元素，且子元素名必须为：前的元素名</p>
+<p>​        2）last-chile：选中最后一个元素，且子元素名必须为：前的元素名</p>
+<p>​        3）nth-child：选中的指定的第元素，或指定的几个元素，且子元素的属性名必须为：前的元素名，奇2n+1/odd偶2n/even</p>
+<p>​        4）first-of-type：选中的元素为子元素中第一个为：前的元素名的元素</p>
+<p>​        5）last-of-type：选中元素为子元素中最后一个为：前的元素名的元素</p>
+<p>​        6）nth-of-type：选中指定元素，或指定的多个元素，且选中的元素是指该元素的第几位，而不是顺序的第几位，同样可以设                置奇数：odd/2n+1偶数even/2n</p>
+<p><strong>2.更多伪元素选择器</strong></p>
+<p>​        1）first-letter：选中元素中的第一个字母</p>
+<p>​        2）first-line：选中元素中的第一行内容</p>
+<p>​        3）selection：被用户框选的文字（一般设置颜色和背景颜色）</p>
+<h3 id="更多样式"><a href="#更多样式" class="headerlink" title="更多样式"></a><strong>更多样式</strong></h3><p><strong>1.透明度</strong></p>
+<p>​        1）opacity：设置的是整个元素的透明度，取值是0-1</p>
+<p>​        2）rgba：alpha通道，取值是0-1</p>
+<p><strong>2.鼠标</strong></p>
+<p>​        cursor：一般设置为pointer</p>
+<p><strong>3.盒子隐藏</strong></p>
+<p>​        1）display：none；不生成盒子，其他元素会受到影响</p>
+<p>​        2）visibility：hidden；生成盒子，调整透明度，其他元素不会受到影响</p>
+<p><strong>4.背景图</strong></p>
+<p>​        背景图和img元素的区别</p>
+<p>​                1）当图片元素属于网页内容时，必须使用img元素</p>
+<p>​                2）当图片仅用于美化页面时，必须使用背景图</p>
+<p>​        涉及的元素</p>
+<p>​                1）background-image：背景图的资源位置</p>
+<p>​                2）background-repeat：默认情况下，背景图片会在横坐标和纵坐标中进行重复，设置属性为none不在重复</p>
+<p>​                3）background-size：背景图的尺寸，预设值有contain，cover类似于object-fit可以设置数值和百分比（横向纵向设置）</p>
+<p>​                4）background-position：设置背景图的位置，横向纵向进行设置，预设值lrtb可设置百分比或者数值（雪碧图：spirit）</p>
+<p>​                5）background-attachment：通常用他来设置背景是否固定。类似于定位中的fixed</p>
+<p>​                6）background-color：设置背景颜色，没有图片时用颜色来替代</p>
+<p>​                7）速写（缩写）：路径+repeat+位置+/尺寸+fixed+背景色</p>
+<h2 id="四-HTML进阶"><a href="#四-HTML进阶" class="headerlink" title="四.HTML进阶"></a><strong>四.HTML进阶</strong></h2><h3 id="iframe元素"><a href="#iframe元素" class="headerlink" title="iframe元素"></a><strong>iframe元素</strong></h3><p>​        框架页：通常用来在网页嵌入另一个页面</p>
+<p>​        iframe：可替换元素</p>
+<p>​        特点：</p>
+<p>​                1）dispaly为none</p>
+<p>​                2）通常显示的内容取决于元素的属性</p>
+<p>​                3）css不能完全控制”其中”的样式</p>
+<p>​                4）具有行块盒的特点</p>
+<h3 id="在页面中使用flash"><a href="#在页面中使用flash" class="headerlink" title="在页面中使用flash"></a><strong>在页面中使用flash</strong></h3><p>​        1）object    可替换元素</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">data</span>=<span class="string">"资源地址"</span> <span class="attr">type</span>=<span class="string">"资源类型"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">""</span> <span class="attr">value</span>=<span class="string">""</span>&gt;</span>//设置资源的参数，额外信息</span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>​        2）emded：可以嵌套其他元素，但通用它来嵌套flash，可替换元素</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">embed</span> <span class="attr">src</span>=<span class="string">"资源地址"</span> <span class="attr">type</span>=<span class="string">"资源类型"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>​        3）兼容性写法</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">param</span> <span class="attr">name</span>=<span class="string">""</span> <span class="attr">value</span>=<span class="string">""</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">embed</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">type</span>=<span class="string">""</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>​        4)知识补充</p>
+<p>​                他们的类型都是MIME类型</p>
+<p>​                MIME(Multipurpose Inernet Mail Extensions)    是描述信息内容类型的因特网标准</p>
+<p>​                MIME信息能包含文本、图像、音频、视频以及其他应用程序专用的数据。</p>
+<h3 id="表单元素"><a href="#表单元素" class="headerlink" title="表单元素"></a><strong>表单元素</strong></h3><p>​        一系列元素，主要用于手机用户数据</p>
+<p><strong>1.input元素</strong></p>
+<p>​        文本输入</p>
+<p>​        输入框</p>
+<p>​        -type属性：输入框类型</p>
+<p>​        type=”text”    普通文本</p>
+<p>​        type=”password”    密码框，不显示输入内容</p>
+<p>​        type=”date”    日期选择，系统或浏览器生成的</p>
+<p>​        type=”search”    搜索框，通常移动端用的较多</p>
+<p>​        type=”range”    滑动块，可以设置min和max</p>
+<p>​        type=”color”    颜色</p>
+<p>​        type=”number”    数字输入框，可以设置min、max、step：表示增加量</p>
+<p>​        type=”checkbox”    多选框，通常用name属性对他进行分组设置默认选中用布尔属性中的checkbox</p>
+<p>​        type=”radio”    单选框，通常用name属性进行分组设置默认选中使用布尔属性中的checkbox</p>
+<p>​        type=”file”    选择打开文件</p>
+<p>​        type=”reset”    input设置按钮中的重置按钮</p>
+<p>​        type=”botton”    input设置按钮中的普通按钮</p>
+<p>​        type=”submit”    input设置按钮中的提交按钮</p>
+<p>​        value属性：输入框的内容</p>
+<p>​        placeholder：提示内容，文本框没有内容时显示</p>
+<p>​        input控制按钮通常用在较老的浏览器中</p>
+<p><strong>2.select元素</strong></p>
+<p>​        下拉列表选择框，通常和option联用</p>
+<p><strong>3.textarea</strong></p>
+<p>​        文本域，多行文本框，可设置宽高</p>
+<p><strong>4.按钮元素</strong></p>
+<p>​        button</p>
+<p><strong>5.表单状态</strong></p>
+<p>​        readonly属性：布尔属性，只读，不会改变表单的显示第效果。</p>
+<p>​        disable属性：布尔属性，禁用，会改变表单的显示效果。</p>
+<p><strong>6.配合表单元素的其他元素</strong></p>
+<p>​        label</p>
+<p>​                普通元素，通常配合单选和多选框使用</p>
+<p>​                显示关联</p>
+<p>​                        可以通过for属性，让label元素关联到某一个表单元素，for属性书写表单元素id的值</p>
+<p>​                隐式关联</p>
+<p>​                        将input属性书写到label中</p>
+<p>​        datalist</p>
+<p>​                option</p>
+<p>​                数据列表</p>
+<p>​                该数据本身不会显示在桌面上，通常与普通文本框配合使用</p>
+<p>​                有兼容性问题</p>
+<p>​        form</p>
+<p>​                通常，会将整个表单元素放置在form元素内部，作用是当提交表单时，会将from元素内部的表单内容易合适的方式提交到服务器中。</p>
+<p>​                form元素对开发静态页面没有什么意义。</p>
+<p>​        fidldest</p>
+<p>​                fidldest</p>
+<p>​                lengend</p>
+<p>​                表单分组</p>
+<h3 id="表格元素"><a href="#表格元素" class="headerlink" title="表格元素"></a><strong>表格元素</strong></h3><p>​        出现在CSS出现前，网页通常使用表格布局</p>
+<p>​        后台管理中可能会使用表格</p>
+<p>​        前台：面向用户</p>
+<p>​        后台：面向管理员，界面要求不高，对功能要求高</p>
+<p>​        表格不再适合用于网页布局，表格渲染速度过慢。</p>
+<p>​        表元素：</p>
+<p>​                1）table：表格元素，border-collapse：表格的折叠方式</p>
+<p>​                2）caption：用户定义表格的标题</p>
+<p>​                3）thead：表格头部，和tr th元素联用</p>
+<p>​                4）tbody：表格体，和tr td联用</p>
+<p>​                5）tfoot：表格底部    和tr td联用</p>
+<p>​                6）tr th：行，表头</p>
+<p>​                7）tr td    行，列</p>
+<h3 id="其他元素"><a href="#其他元素" class="headerlink" title="其他元素"></a><strong>其他元素</strong></h3><p>​        1）abbr：abbravietion缩写</p>
+<p>​        2）time：时间用于机器阅读，用于给浏览器看，告诉浏览器时间</p>
+<p>​        3）b：以前是一个无语义的元素，主要加粗字体</p>
+<p>​        4）q：小段引用文本，cite属性引用的地址</p>
+<p>​        5）blockquote：大段引用文本，cite属性引用的地址</p>
+<p>​        6）br：用于文本中换行，不推荐使用</p>
+<p>​        7）hr：用于添加线</p>
+<p>​        8）meta：name=”keyword”关键字用于搜索引擎优化（seo）name=”author”作者    <em>content</em>=”作者邮箱”，用于给浏览器看        的附加信息（元数据）</p>
+<p>​        9）link：链接外部资源    rel属性：relation，连接的资源与网页的关系    type属性：连接的资源MIME类型</p>
+<h2 id="五-CSS进阶"><a href="#五-CSS进阶" class="headerlink" title="五.CSS进阶"></a><strong>五.CSS进阶</strong></h2><h3 id="规则"><a href="#规则" class="headerlink" title="@规则"></a><strong>@规则</strong></h3><p>​        at-rule：@规则、@语句、css指令</p>
+<p>​        1）import：@import”路径”;    引入另一个css文件</p>
+<p>​        2）charset：@charset”utf-8”;    告诉浏览器使用的是什么字符编码集    必须写到第一行</p>
+<h3 id="web字体和图标"><a href="#web字体和图标" class="headerlink" title="web字体和图标"></a><strong>web字体和图标</strong></h3><p><strong>1.web字体</strong></p>
+<p>​        解决用户电脑上没有安装相应字体的问题，当用户电脑没安装相应的字体，强制用户下载该字体</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@font-face&#123;</span><br><span class="line">	font-family:字体名称;</span><br><span class="line">	src:yrl("字体文件位置");</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>2.字体图标</strong></p>
+<p>​        方式一：在线预览</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"文件地址"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"iconfont 图标的名字"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>​        方式二：将图标文件下载下来引入到文件中</p>
+<p>​        因为是字体图标所以可以设置，字体相关的属性</p>
+<h3 id="块级格式化上下文"><a href="#块级格式化上下文" class="headerlink" title="块级格式化上下文"></a><strong>块级格式化上下文</strong></h3><p><strong>1.概念</strong></p>
+<p>​        块级格式化上下文：全称<strong>Block Fromatting Content</strong>，简称BFC，是一块<strong>独立的渲染区域</strong>，它规定了在<strong>该区域中</strong>，</p>
+<p>​        <strong>常规流块盒的布局</strong></p>
+<p><strong>2.块级格式化中常规流块盒的布局规则</strong></p>
+<p>​        1）常规流块盒在水平方向上，必须撑满包含块</p>
+<p>​        2）常规流块盒在垂直方向上依次摆放</p>
+<p>​        3）常规流块盒若外边距无缝相连，会进行合并</p>
+<p>​        4）常规流块盒的自动高度计算和摆放会无视浮动元素</p>
+<p><strong>3.BFC渲染区域</strong></p>
+<p>​        BFC渲染区域：这个区域由某个HTML元素创建</p>
+<p>​        1）根元素，html元素创建的BFC区域，覆盖了网页中的所有元素</p>
+<p>​        2）设置了浮动、绝对定位、固定定位的元素</p>
+<p>​        3）overflow不等于visible的块盒</p>
+<p><strong>4.BFC元素的规则</strong></p>
+<p>​        独立的：不同的BFC区域在渲染的时候互不影响，创建了BFC的元素，隔绝了内部和外部的联系，内部渲染不会影响到外部。</p>
+<p>​        创建了BFC的元素，会计算浮动元素的自动高度。</p>
+<p>​        创建了BFC的元素，他的边框不会和浮动元素重叠。</p>
+<p>​        创建了BFC的元素，不会和其他子元素进行外边距合并。</p>
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a><strong>布局</strong></h3><p><strong>1.多栏布局</strong></p>
+<p>​        两栏布局</p>
+<p>​        三栏布局</p>
+<p><strong>2.等高</strong></p>
+<p>​        CSS弹性盒子    </p>
+<p>​        JS控制</p>
+<p>​        伪等高</p>
+<p><strong>3.元素的书写顺序</strong></p>
+<p>​        一般公司开发都是将网页的主体区域书写到最前面的位置</p>
+<p>​        先写浮动元素</p>
+<p><strong>4.后台页面的布局</strong></p>
+<h3 id="浮动的细节规则"><a href="#浮动的细节规则" class="headerlink" title="浮动的细节规则"></a><strong>浮动的细节规则</strong></h3><p>​        左浮动盒子靠上靠左排列</p>
+<p>​        右浮动盒子靠上靠右排列</p>
+<p>​        浮动盒子的顶边不能高于上一个浮动盒子</p>
+<p>​        若剩余空间无法放下浮动盒子，则该盒子向下移动，知道具备足够的能够容纳盒子的空间，然后再向右移动</p>
+<h3 id="行高的取值"><a href="#行高的取值" class="headerlink" title="行高的取值"></a><strong>行高的取值</strong></h3><p>​        1）px，像素值    具体单位</p>
+<p>​        2）纯数字相对于父元素的字体（先继承，在计算）</p>
+<p>​        3）em单位（先计算再继承）</p>
+<p>​        4）百分比（先计算再继承）</p>
+<h3 id="body的背景"><a href="#body的背景" class="headerlink" title="body的背景"></a><strong>body的背景</strong></h3><p><strong>1.画布：一块区域</strong></p>
+<p>​        特点：1）最小宽度为视口宽度；2）最小高度为视口高度</p>
+<p><strong>2.HTML&amp;body元素的背景</strong></p>
+<p>​        如果html有背景，body元素正常（背景覆盖边框盒）</p>
+<p>​        如果html没有背景，body元素的背景覆盖画布</p>
+<p><strong>3.背景图</strong></p>
+<p>​        1）背景图的宽度百分比相对于视口宽度</p>
+<p>​        2）背景图的高度百分比相对于html元素</p>
+<p>​        3）背景图的横向位置百分比、预设值、相对于视口宽度</p>
+<p>​        4）背景图的纵向位置百分比、预设值、相对于网页高度</p>
+<h3 id="行盒垂直对齐"><a href="#行盒垂直对齐" class="headerlink" title="行盒垂直对齐"></a><strong>行盒垂直对齐</strong></h3><p><strong>1.多个行盒垂直方向上的对齐</strong></p>
+<p>​        给没有对齐的元素设置vertical-algin</p>
+<p>​        预设值：top，middle，bottom，super，sub，baseline</p>
+<p>​        数值</p>
+<p><strong>2.图片的底部白边</strong></p>
+<p>​        图片的父元素是一个块盒，块盒的高度自动，图片底部和父元素底边之间往往会出现白边</p>
+<p>​        解决方法：</p>
+<p>​                1）设置父元素的字体为0</p>
+<p>​                2）将图片设置为块盒</p>
+<h3 id="参考线-深入理解字体"><a href="#参考线-深入理解字体" class="headerlink" title="参考线-深入理解字体"></a><strong>参考线-深入理解字体</strong></h3><p><strong>1.相关元素</strong></p>
+<p>​        font-size，line-height，vertical-algin，font-family</p>
+<p><strong>2.文字</strong></p>
+<p>​        文字是通过文字制作软件制作的：font-forge</p>
+<p>​        制作文字时，会有几条参考线，不同的文字类型，参考线不一样，同一类型的文字参考线一样。</p>
+<p><strong>3.font-size</strong></p>
+<p>​        文字大小，设置的是文字的相对大小</p>
+<p>​        文字的相对大小：1000，2048，1024</p>
+<p>​        相对的文字大小与实际的文字大小存在一些偏差，计算机计算字体大小不能完全精确。</p>
+<p>​        文字顶线(text top,ascent)到底线(text bottom,descent)的距离，是文字的实际大小（content-area，内容区）行盒的背景覆盖        文字的内容区域（content-area）</p>
+<p><strong>4.line-height</strong></p>
+<p>​        顶线向上延伸的空间和底线向下延伸的空间，两个空间相等，该空间叫做gap（空隙）</p>
+<p>​        top→text top→super→baseline→sub→text bottom→bottom</p>
+<p>​        gap默认情况下由文字作者决定</p>
+<p>​        top到bootom，叫做virtual-area（虚拟区）</p>
+<p>​        行高就是virtual-area的距离</p>
+<p>​        line-height：normal，默认值，使用文字默认的gap</p>
+<p>​        文字是否在中间完全取决于文字作者</p>
+<p>​        content-area一定出现在virtual-area中间</p>
+<p><strong>5.vertical-algin</strong></p>
+<p>​        确定文字大小：font-sie，font-family，line-height</p>
+<p>​        一个元素如果子元素出现行盒，该元素内部也会产生参考线</p>
+<p>​        默认情况基线对齐，该元素的基线与父元素的基线对齐</p>
+<p>​        super：该元素的基线与父元素的上基线对齐</p>
+<p>​        sub：该元素的基线与父元素的下基线对齐</p>
+<p>​        text-top：该元素的顶边对齐父元素的text top</p>
+<p>​        text-bottom：该元素的底边对齐父元素的text bottom</p>
+<p>​        top：该元素的virtual-area的顶边，对齐父元素的顶变（该行中最高顶边），对齐的是line-box的顶边</p>
+<p>​        bottom：该元素的virtual-area底边，对齐父元素的底边（该行中最低的边），对齐的是line-box的底边</p>
+<p>​        middle：该元素的中线（content-area），与父元素的X字母高度一半的距离对齐</p>
+<p>​        行盒组合起来可以形成多行，每一行的区域叫做line-box，line-box顶边是该行所有盒子的最高顶边，底边是该行最低底边</p>
+<p>​        实际一个元素元素实际占用高度（自动高度），高度的计算通过line-box计算</p>
+<p>​        行盒：inline-box</p>
+<p>​        行框：line-box</p>
+<p>​        数值相对于基线的偏移量，向上为正数，向下为负数</p>
+<p>​        百分比也是相对于基线的偏移量，百分比是相对于virtual-area的高度</p>
+<p>​        line-box是承载内容必要条件，以下情况不生成行框：</p>
+<p>​                1）某元素内部没有任何行盒</p>
+<p>​                2）某元素字体大小为零</p>
+<p><strong>6.可替换元素和行块盒的基线</strong></p>
+<p>​        图片：图片的基线在图片的下右边距</p>
+<p>​        表单元素：基线位置在内容的底边</p>
+<p>​        行块盒：</p>
+<p>​                1）行块盒最后一行有行框（line-box），用最后一行的基线作为整个行块盒的基线</p>
+<p>​                2）如果行块盒内部最后一行没有行盒，则使用下外边距作为基线</p>
+<h3 id="堆叠上下文"><a href="#堆叠上下文" class="headerlink" title="堆叠上下文"></a><strong>堆叠上下文</strong></h3><p><strong>1.概念</strong></p>
+<p>​        堆叠上下文（stack context）：是一块区域，这块区域由某个元素创建，它规定了该区域中的内容在z轴上的先后顺序。</p>
+<p><strong>2.创建堆叠上下文的元素</strong></p>
+<p>​        1）html元素（根元素）</p>
+<p>​        2）设置了z-index数值（非auto）的定位元素</p>
+<p><strong>3.同一个堆叠上下文中的元素在z轴上的排列顺序</strong></p>
+<p>​        从后到前的顺序：</p>
+<p>​        1）创建堆叠上下文的元素的背景和边框</p>
+<p>​        2）堆叠级别为负值的堆叠上下文</p>
+<p>​        3）常规流非定位的块盒</p>
+<p>​        4）非定位的浮动盒子</p>
+<p>​        5）常规流非定位的行盒</p>
+<p>​        6）任何z-index是auto的定位子元素，以及z-index为0的堆叠上下文</p>
+<p>​        7）堆叠级别为正值的堆叠上下文    </p>
+<p><strong>4.特点</strong></p>
+<p>​        每个堆叠上下文，独立于其他堆叠上下文，他们之间不能互相穿插</p>
+<p>​        在同一个堆叠上下文元素中z-index值越大越靠前，值越小越靠后，值相等后面的覆盖前面的。</p>
+<p>​        不同的堆叠上下文，要把它当作一个整体，同级别中书写靠前的会覆盖书写靠后的</p>
+<h3 id="svg"><a href="#svg" class="headerlink" title="svg"></a><strong>svg</strong></h3><p><strong>1.概念</strong></p>
+<p>​        svg：scalable vector graphics，可缩放的矢量图</p>
+<p><strong>2.特点</strong></p>
+<p>​        1）该图片由代码书写而成</p>
+<p>​        2）缩放不会失帧，图片是通过坐标来确定位置的，而普通图片是通过像素点组合而成的。</p>
+<p>​        3）内容轻量（占用内存小）</p>
+<p><strong>3.怎么使用</strong></p>
+<p>​        svg可以嵌入到浏览器中，也可以单独成为一个文件</p>
+<p>​        xml语言，可扩展的标记语言，svg使用该语言定义</p>
+<p>​        xml语言规定必须闭合元素</p>
+<p>​        embed，object书写方式src，data里面书写资源地址，type中书写资源类型，svg的资源类型是image/svg+xml</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;embed src&#x3D;&quot;资源地址&quot; type&#x3D;&quot;image&#x2F;svg+xml&quot;&gt;&lt;&#x2F;embed&gt;</span><br><span class="line">&lt;object data&#x3D;&quot;资源地址&quot; type&#x3D;&quot;image&#x2F;svg+xml&quot;&gt;</span><br><span class="line">	&lt;param name&#x3D;&quot;&quot; value&#x3D;&quot;&quot;&gt;&lt;&#x2F;param&gt;</span><br><span class="line">&lt;&#x2F;object&gt;</span><br></pre></td></tr></table></figure>
+
+<p>​        如果是iframe元素需要在xml文件中设置一下svg的宽高</p>
+<p><strong>4.书写svg代码</strong></p>
+<p>​        svg可以设置宽高，style属性等，它默认的高度为300×100</p>
+<p>​        svg里面可书写的内容有</p>
+<p>​        1）矩形：rectangle</p>
+<p>​                width：宽；height：高；fill设置填充色，stoker：边框颜色，x，y：设置矩形右下角离原点x，y轴的距离</p>
+<p>​        2）圆形：circle</p>
+<p>​                fill：填充色，transparnet：透明色</p>
+<p>​                stroke：描边</p>
+<p>​                cx，cy，r分别表示圆心离原点x，y轴的距离和半径</p>
+<p>​        3）椭圆：ellipse</p>
+<p>​                rx，ry，cx，xy，rx：设置椭圆长的半径ry：设置椭圆高的半径，cx，cy设置圆形点到原点，x，y轴的距离</p>
+<p>​        4）线段：line</p>
+<p>​                x1,y1,x2,y2：x1，y1设置离原点的第一点，x2，y2设置离x1，y1的距离</p>
+<p>​                stroke：设置边框</p>
+<p>​                stroke-width：设置边框的粗细</p>
+<p>​        5）折线：polyline</p>
+<p>​                points：各个点的坐标，最后一个坐标和第一个坐标会连线</p>
+<p>​        6）多边形：polygon</p>
+<p>​                points：各个点的坐标</p>
+<p>​        7）路径：path </p>
+<p>​                <path d=""/></p>
+<p>​                M = moveto,</p>
+<p>​                L=lineto,</p>
+<p>​                H=horizontal lineto,</p>
+<p>​                V=vertical lineto,</p>
+<p>​                C=curveto,</p>
+<p>​                S=smooth curveto,</p>
+<p>​                Q=quadratic belzier curveto,</p>
+<p>​                T=smooth quadratic belzier curveto,</p>
+<p>​                A=elliptical arc</p>
+<p>​                A</p>
+<p>​                1：半径1</p>
+<p>​                2：半径2</p>
+<p>​                3：旋转的角度</p>
+<p>​                4：小弧度0大弧度1</p>
+<p>​                5：顺时针1逆时针0</p>
+<p>​                6：终点坐标x，y的坐标，相对于原点</p>
+<p>​                画圆的时候需要设置半径1和半径2的距离    顺时针旋转</p>
+<p>​                Z=closepath</p>
+<h3 id="数据连接data-url"><a href="#数据连接data-url" class="headerlink" title="数据连接data url"></a><strong>数据连接data url</strong></h3><p><strong>1.如何书写</strong></p>
+<p>​        数据链接：将目标文件的数据直接书写到路径中</p>
+<p>​        语法：data：MIME/base64，数据</p>
+<p><strong>2.意义</strong></p>
+<p>​        减少了浏览器的请求</p>
+<p>​        优点：</p>
+<p>​                1）减少了请求中浪费的时间    </p>
+<p>​                2）有利于数据的动态生成</p>
+<p>​        缺点：</p>
+<p>​                1）增加了资源的体积，导致传输内容增加，从而增加了单个资源的传输</p>
+<p>​                2）不利于浏览器缓存，浏览器通常会缓存图片文件，css文件，js文件。</p>
+<p>​                3）会增加原资源的体积到原来的四分之三</p>
+<p>​        应用场景：</p>
+<p>​                1）当请求单个图片前提小，并且该图片因为各种原因，不适合制作雪碧图，可以使用数据链接。</p>
+<p>​                2）图片由其他代码动态生成，并且图片较小。</p>
+<p><strong>3.base64</strong></p>
+<p>​        表示的是一种编码方式</p>
+<p>​        通常用于将一些二进制数据用一个可书写的字符串表示</p>
+<p>​        图片是一个二进制数据</p>
+<p>​        tip：css的数据类型是text，通常在数据链接中的图片资源的MIME后加一个分号后加一个base64</p>
+<h3 id="浏览器的兼容性"><a href="#浏览器的兼容性" class="headerlink" title="浏览器的兼容性"></a><strong>浏览器的兼容性</strong></h3><p><strong>1.问题产生原因</strong></p>
+<p>​        1）市场竞争导致不同浏览器为了市场竞争制定了不同的版本，但是官方定义的速度较慢导致了浏览器出现了兼容性问题</p>
+<p>​        2）标准版本更新变化导致浏览器出现了兼容性问题</p>
+<p>​        3）浏览器的不同版本也会出现一些兼容性问题，老版本的浏览器不支持新版本中的元素</p>
+<p><strong>2.厂商前缀</strong></p>
+<p>​        原因：</p>
+<p>​                1）市场竞争，标准文档还没有发布</p>
+<p>​                2）标准仍在讨论中，浏览器厂商希望先支持</p>
+<p>​        常见的厂商前缀</p>
+<p>​                IE：-ms-</p>
+<p>​                Chrome，safari：-webkit-</p>
+<p>​                firefox：-moz-</p>
+<p>​                opera：-o-</p>
+<p>​                为了兼容低版本浏览器可以将厂商前缀加上</p>
+<p>​        例子：</p>
+<p>​                box-sizzing，谷歌旧版本浏览器的书写形式是-webkit-box-sizzing：厂商前缀说明这个元素在当时官方还没有发布</p>
+<p>​                谷歌浏览器的滚动条样式</p>
+<p>​                        实际开发中往往是div+css+js来实现滚动条，例如一个div里面放置一个div用css设置来设置他的样式，js来控制滑动</p>
+<p>​                多背景中选择一个作为背景</p>
+<p><strong>3.css hack（补丁）</strong></p>
+<p>​        根据不同的浏览器（主要针对于IE浏览器）设置不同的样式和元素</p>
+<p>​        1）样式</p>
+<p>​                IE中，css的特殊前缀</p>
+<p>​                “*” 属性，兼容IE5,IE6,IE7</p>
+<p>​                “_”属性，兼容性IE5,IE6</p>
+<p>​                属性值后面加\9，兼容IE9,IE10</p>
+<p>​                属性值后面加\0，兼容IE-IE10</p>
+<p>​                属性之后面加\9\0，兼容IE9-IE10</p>
+<p>​                IE6的外边框bug，浮动元素的左边距会翻倍</p>
+<p>​        2）判断条件</p>
+<p>​            IE浏览器能识别注释内的一部分元素</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- [if IE] --&gt;</span><br><span class="line">&lt;!-- ![endif] --&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>4.渐进增强优雅降级</strong></p>
+<p>​        渐进增强：先适应大部分浏览器，然后针对新版本浏览器，加入新的样式，书写代码是会先尽量避免有兼容性问题的代码，完        成后，在逐步加入新标准中的代码</p>
+<p>​        优雅降级：先制作完成功能，然后针对低版本浏览器进行特殊处理，在解决兼容性问题，书写代码时，先不用特别在意兼容        性，完成整个功能，在针对低版本浏览器处理样式。</p>
+<p><strong>5.can i use</strong></p>
+<p>​        <a href="https://caniuse.com/" target="_blank" rel="noopener">caniuse</a></p>
+<p>​        tips：当遇到无法识别的代码时，直接略过，不会报错</p>
+<h3 id="居中总结"><a href="#居中总结" class="headerlink" title="居中总结"></a><strong>居中总结</strong></h3><p><strong>1.行盒水品居中</strong></p>
+<p>​        直接设置行盒（行块盒）父元素的text-algin：center；</p>
+<p><strong>2.常规流块盒水品居中</strong></p>
+<p>​        定宽，左右margin设置为auto</p>
+<p><strong>3.绝对（固定）定位元素的水平居中</strong></p>
+<p>​        定宽（高）设置rltb值为零，margin：auto</p>
+<p><strong>4.单行文本垂直居中</strong></p>
+<p>​        设置文本所在元素的行高，为整个区域的高度</p>
+<p><strong>5.行块盒或块盒内多行文本的垂直居中</strong></p>
+<p>​        没有完美的方案</p>
+<p>​        设置盒子上下内边距相等，达到类似的效果，但是缺点很明显</p>
+<p><strong>6.绝对定位中的垂直居中</strong></p>
+<p>​        定高，设置上下坐标为0（tb值为0）margin：auto；</p>
+<h3 id="样式补充"><a href="#样式补充" class="headerlink" title="样式补充"></a><strong>样式补充</strong></h3><p><strong>1.display：list-item</strong></p>
+<p>​        list-style-type</p>
+<p>​        list-style-position</p>
+<p>​        list-style：none；</p>
+<p><strong>2.图片失效时的高度问题</strong></p>
+<p>​        设置img元素为块盒或行块盒</p>
+<p><strong>3.行盒中包含行块盒或可替换元素</strong></p>
+<p>​        行盒的高度和它内部行块盒或可替换元素无关</p>
+<p><strong>4.text-algin：justify</strong></p>
+<p>​        text-algin：left；</p>
+<p>​        text-algin：right；</p>
+<p>​        text-algin：center；</p>
+<p>​        text-algin：justify；    除后一行外，分散对齐（将空白部分均分）如果如果要将最后一行分散对齐，可设置伪元素::</p>
+<p>​        after{content=””;display:inline-block;width:100%;}</p>
+<p><strong>5.制作一个三角形</strong>            </p>
+<p>​        1)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;width:0px;height:0px;border:10px solid;boder-color:color1 color2 color3 color4&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​        2)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;width:0px;height:0px;border:100px solid transparnet; border-left-color:red;&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>6.文字方向</strong></p>
+<p>​        direction和writing-mode</p>
+<p>​        开始 start 结束 end</p>
+<p>​        左 left 右 right</p>
+<p>​        开始和结束是相对的但是左右是绝对的</p>
+<p>​        direction设置的是开始和结束的放向</p>
+<p>​        writing-mode：设置文字的书写方向</p>
+<p><strong>7.utf-8字符</strong><br>        &#x6211;&#x662F;&#x5927;&#x5E05;&#x54E5;</p>
+<p>​        html实体字符</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一-概述"><span class="toc-number">1.</span> <span class="toc-text">一.概述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#HTML-amp-CSS概述"><span class="toc-number">1.1.</span> <span class="toc-text">HTML &amp;  CSS概述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#开发环境准备"><span class="toc-number">1.2.</span> <span class="toc-text">开发环境准备</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二-HTML核心"><span class="toc-number">2.</span> <span class="toc-text">二.HTML核心</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一个网页"><span class="toc-number">2.1.</span> <span class="toc-text">第一个网页</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义化"><span class="toc-number">2.2.</span> <span class="toc-text">语义化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文本元素"><span class="toc-number">2.3.</span> <span class="toc-text">文本元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#a标签"><span class="toc-number">2.4.</span> <span class="toc-text">a标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#路径的写法"><span class="toc-number">2.5.</span> <span class="toc-text">路径的写法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图片元素"><span class="toc-number">2.6.</span> <span class="toc-text">图片元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#多媒体元素"><span class="toc-number">2.7.</span> <span class="toc-text">多媒体元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#列表元素"><span class="toc-number">2.8.</span> <span class="toc-text">列表元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#容器元素"><span class="toc-number">2.9.</span> <span class="toc-text">容器元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#元素的包含关系"><span class="toc-number">2.10.</span> <span class="toc-text">元素的包含关系</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三-CSS基础"><span class="toc-number">3.</span> <span class="toc-text">三.CSS基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#为网页添加样式"><span class="toc-number">3.1.</span> <span class="toc-text">为网页添加样式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常见的样式声明"><span class="toc-number">3.2.</span> <span class="toc-text">常见的样式声明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#选择器"><span class="toc-number">3.3.</span> <span class="toc-text">选择器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#层叠"><span class="toc-number">3.4.</span> <span class="toc-text">层叠</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#继承"><span class="toc-number">3.5.</span> <span class="toc-text">继承</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#属性值的计算过程"><span class="toc-number">3.6.</span> <span class="toc-text">属性值的计算过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#盒模型"><span class="toc-number">3.7.</span> <span class="toc-text">盒模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#盒模型应用"><span class="toc-number">3.8.</span> <span class="toc-text">盒模型应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#行盒盒模型"><span class="toc-number">3.9.</span> <span class="toc-text">行盒盒模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常规流"><span class="toc-number">3.10.</span> <span class="toc-text">常规流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#浮动"><span class="toc-number">3.11.</span> <span class="toc-text">浮动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#定位"><span class="toc-number">3.12.</span> <span class="toc-text">定位</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多选择器"><span class="toc-number">3.13.</span> <span class="toc-text">更多选择器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更多样式"><span class="toc-number">3.14.</span> <span class="toc-text">更多样式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四-HTML进阶"><span class="toc-number">4.</span> <span class="toc-text">四.HTML进阶</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#iframe元素"><span class="toc-number">4.1.</span> <span class="toc-text">iframe元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#在页面中使用flash"><span class="toc-number">4.2.</span> <span class="toc-text">在页面中使用flash</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#表单元素"><span class="toc-number">4.3.</span> <span class="toc-text">表单元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#表格元素"><span class="toc-number">4.4.</span> <span class="toc-text">表格元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#其他元素"><span class="toc-number">4.5.</span> <span class="toc-text">其他元素</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#五-CSS进阶"><span class="toc-number">5.</span> <span class="toc-text">五.CSS进阶</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#规则"><span class="toc-number">5.1.</span> <span class="toc-text">@规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#web字体和图标"><span class="toc-number">5.2.</span> <span class="toc-text">web字体和图标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#块级格式化上下文"><span class="toc-number">5.3.</span> <span class="toc-text">块级格式化上下文</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#布局"><span class="toc-number">5.4.</span> <span class="toc-text">布局</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#浮动的细节规则"><span class="toc-number">5.5.</span> <span class="toc-text">浮动的细节规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#行高的取值"><span class="toc-number">5.6.</span> <span class="toc-text">行高的取值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#body的背景"><span class="toc-number">5.7.</span> <span class="toc-text">body的背景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#行盒垂直对齐"><span class="toc-number">5.8.</span> <span class="toc-text">行盒垂直对齐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#参考线-深入理解字体"><span class="toc-number">5.9.</span> <span class="toc-text">参考线-深入理解字体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#堆叠上下文"><span class="toc-number">5.10.</span> <span class="toc-text">堆叠上下文</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#svg"><span class="toc-number">5.11.</span> <span class="toc-text">svg</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#数据连接data-url"><span class="toc-number">5.12.</span> <span class="toc-text">数据连接data url</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#浏览器的兼容性"><span class="toc-number">5.13.</span> <span class="toc-text">浏览器的兼容性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#居中总结"><span class="toc-number">5.14.</span> <span class="toc-text">居中总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#样式补充"><span class="toc-number">5.15.</span> <span class="toc-text">样式补充</span></a></li></ol></li></ol>	
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
